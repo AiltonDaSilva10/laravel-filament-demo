@@ -8,10 +8,10 @@ A demo application to illustrate how Filament Admin works.
 
 ## Installation
 
-Clone the repo locally:
+Clone o repositório localmente:
 
 ```sh
-git clone https://github.com/laravel-filament/demo.git filament-demo && cd filament-demo
+git clone https://github.com/AiltonDaSilva10/laravel-filament-demo.git filament-demo && cd filament-demo
 ```
 
 Install PHP dependencies:
