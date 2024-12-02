@@ -39,6 +39,8 @@ php artisan key:generate
 > **NOTA**  
 > Configure as informações do banco de dados e acordo com as informações de seu servidor de banco de dados
 
+Executar migrações de banco de dados:
+
 ```sh
 php artisan migrate
 ```
@@ -49,53 +51,18 @@ Execute o semeador de banco de dados:
 php artisan db:seed
 ```
 
-> **Note**  
-> If you get an "Invalid datetime format (1292)" error, this is probably related to the timezone setting of your database.  
-> Please see https://dba.stackexchange.com/questions/234270/incorrect-datetime-value-mysql
-
-
-Create a symlink to the storage:
+Crie um link simbólico para o armazenamento das imagens:
 
 ```sh
 php artisan storage:link
 ```
 
-Run the dev server (the output will give the address):
+Execute o servidor de desenvolvimento ([a saída fornecerá o endereço](http://127.0.0.1:8000/)):
 
 ```sh
 php artisan serve
 ```
+Você está pronto para ir! Visite a url no seu navegador e faça login com:
 
-You're ready to go! Visit the url in your browser, and login with:
-
--   **Username:** admin@filamentphp.com
--   **Password:** password
-
-## Features to explore
-
-### Relations
-
-#### BelongsTo
-- ProductResource
-- OrderResource
-- PostResource
-
-#### BelongsToMany
-- CategoryResource\RelationManagers\ProductsRelationManager
-
-#### HasMany
-- OrderResource\RelationManagers\PaymentsRelationManager
-
-#### HasManyThrough
-- CustomerResource\RelationManagers\PaymentsRelationManager
-
-#### MorphOne
-- OrderResource -> Address
-
-#### MorphMany
-- ProductResource\RelationManagers\CommentsRelationManager
-- PostResource\RelationManagers\CommentsRelationManager
-
-#### MorphToMany
-- BrandResource\RelationManagers\AddressRelationManager
-- CustomerResource\RelationManagers\AddressRelationManager
+-   **Nome de usuário:** admin@filamentphp.com
+-   **Senha:** password
