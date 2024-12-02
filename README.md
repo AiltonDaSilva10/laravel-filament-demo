@@ -12,41 +12,38 @@ Clone o repositório localmente:
 git clone https://github.com/AiltonDaSilva10/laravel-filament-demo.git filament-demo
 ```
 
+Entrar na pasta do projecto 'filament-demo':
+
 ```sh
 cd filament-demo
 ```
 
-Install PHP dependencies:
+Instalar dependências do PHP:
 
 ```sh
 composer install
 ```
 
-Setup configuration:
+Configuração de instalação:
 
 ```sh
 cp .env.example .env
 ```
 
-Generate application key:
+Gerar chave da aplicação:
 
 ```sh
 php artisan key:generate
 ```
 
-Create an SQLite database. You can also use another database (MySQL, Postgres), simply update your configuration accordingly.
-
-```sh
-touch database/database.sqlite
-```
-
-Run database migrations:
+> **NOTA**  
+> Configure as informações do banco de dados e acordo com as informações de seu servidor de banco de dados
 
 ```sh
 php artisan migrate
 ```
 
-Run database seeder:
+Execute o semeador de banco de dados:
 
 ```sh
 php artisan db:seed
