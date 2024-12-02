@@ -57,12 +57,12 @@ Crie um link simbólico para o armazenamento das imagens:
 php artisan storage:link
 ```
 
-Execute o servidor de desenvolvimento ([a saída fornecerá o endereço](http://127.0.0.1:8000/)):
+Execute o servidor de desenvolvimento:
 
 ```sh
 php artisan serve
 ```
-Você está pronto para ir! Visite a url no seu navegador e faça login com:
+Você está pronto para ir! Visite a url (http://127.0.0.1:8000/) no seu navegador e faça login com:
 
 -   **Nome de usuário:** admin@filamentphp.com
 -   **Senha:** password
