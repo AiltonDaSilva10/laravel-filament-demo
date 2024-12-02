@@ -1,15 +1,19 @@
-# Aplicativo de demonstração de filamento
+# Aplicativo de demonstração de filament
 
-A demo application to illustrate how Filament Admin works.
+Um aplicativo de demonstração para ilustrar como o Filament Admin funciona.
 
-![Filament Demo](https://github.com/filamentphp/demo/assets/171715/899161a9-3c85-4dc9-9599-13928d3a4412)
+![Aplicativo de demonstração de filament](https://github.com/filamentphp/demo/assets/171715/899161a9-3c85-4dc9-9599-13928d3a4412)
 
 ## Instalação
 
 Clone o repositório localmente:
 
 ```sh
-git clone https://github.com/AiltonDaSilva10/laravel-filament-demo.git filament-demo && cd filament-demo
+git clone https://github.com/AiltonDaSilva10/laravel-filament-demo.git filament-demo
+```
+
+```sh
+cd filament-demo
 ```
 
 Install PHP dependencies:
